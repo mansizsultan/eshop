@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="id.ac.ui.cs.advprog.eshop.EshopApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-16T08:36:47.673Z" hostname="MANSIZ" time="3.293">
+  <properties/>
+  <testcase name="contextLoads()" classname="id.ac.ui.cs.advprog.eshop.EshopApplicationTests" time="3.293"/>
+  <system-out><![CDATA[15:36:41.709 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [id.ac.ui.cs.advprog.eshop.EshopApplicationTests]: EshopApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:36:42.324 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration id.ac.ui.cs.advprog.eshop.EshopApplication for test class id.ac.ui.cs.advprog.eshop.EshopApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2025-03-16T15:36:43.947+07:00  INFO 28328 --- [eshop] [    Test worker] i.a.u.c.a.eshop.EshopApplicationTests    : Starting EshopApplicationTests using Java 21.0.6 with PID 28328 (started by LEnovo in C:\Users\Sultan Mansiz\Documents\CODE\KULIAH-CODE\FOURTH\ADPRO\eshop)
+2025-03-16T15:36:43.952+07:00  INFO 28328 --- [eshop] [    Test worker] i.a.u.c.a.eshop.EshopApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-03-16T15:36:47.597+07:00  INFO 28328 --- [eshop] [    Test worker] i.a.u.c.a.eshop.EshopApplicationTests    : Started EshopApplicationTests in 4.545 seconds (process running for 10.47)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\Sultan Mansiz\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.11\f9cb566608fbac6bc7bf54901a7aa11543a989ee\byte-buddy-agent-1.14.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
