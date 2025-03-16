@@ -7,6 +7,7 @@ import java.util.Optional;
 public interface ProductService {
     public Product create(Product product);
     public List<Product> findAll();
+    public void delete(String productId);
     public Optional<Product> findById(String productId);
     public Product update(Product product);
 }
