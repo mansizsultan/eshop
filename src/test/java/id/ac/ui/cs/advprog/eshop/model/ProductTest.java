@@ -10,8 +10,8 @@ class ProductTest {
     void setUp() {
         this.product = new Product();
         this.product.setProductId("573e7b70-589f-49c2-8385-319533c676be");
-        this.product.setProductName("Manchester United Home Jersey 24/25 ");
-        this.product.setProductQuantity(7);
+        this.product.setProductName("Playstation 5");
+        this.product.setProductQuantity(10);
     }
     @Test
     void testGetProductId() {
@@ -20,11 +20,11 @@ class ProductTest {
 
     @Test
     void testGetProductName() {
-        assertEquals("Manchester United Home Jersey 24/25 ", this.product.getProductName());
+        assertEquals("Playstation 5", this.product.getProductName());
     }
 
     @Test
     void testGetProductQuantity() {
-        assertEquals(7, this.product.getProductQuantity());
+        assertEquals(10, this.product.getProductQuantity());
     }
 }
